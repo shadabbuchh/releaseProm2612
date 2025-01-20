@@ -50,6 +50,9 @@
       "key": "tableData"
     },
     {
+      "key": "isVisible"
+    },
+    {
       "key": "accentColor"
     },
     {
@@ -57,21 +60,6 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "primaryColumns.rowIndex.computedValue"
-    },
-    {
-      "key": "isVisible"
-    },
-    {
-      "key": "primaryColumns.Name.computedValue"
-    },
-    {
-      "key": "primaryColumns.Image.computedValue"
-    },
-    {
-      "key": "primaryColumns.Link.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -111,8 +99,8 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
-      "columnType": "html",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Image\"]))}}",
+      "columnType": "text",
+      "computedValue": "[]",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -146,7 +134,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Link\"]))}}",
+      "computedValue": "[]",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -180,7 +168,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+      "computedValue": "[]",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -214,7 +202,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"rowIndex\"]))}}",
+      "computedValue": "[]",
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",

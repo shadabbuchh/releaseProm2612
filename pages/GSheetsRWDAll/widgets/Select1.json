@@ -8,13 +8,10 @@
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
-      "key": "accentColor"
+      "key": "defaultOptionValue"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "defaultOptionValue"
     }
   ],
   "dynamicHeight": "FIXED",
